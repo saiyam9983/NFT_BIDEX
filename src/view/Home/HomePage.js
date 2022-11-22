@@ -8,7 +8,7 @@ import { HeroSection } from "./components/HeroSection";
 import { NetworkSection } from "./components/NetworkSection";
 
 const HomePage = () => {
-  useDocumentTitle("Home || JapanNFT");
+  useDocumentTitle("Home || BidexNFT");
 
   return (
     <div>
