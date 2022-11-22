@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&display=swap');
+
+a,
+button,
+::placeholder,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,tr,th,td
+span,button {
+  font-family: 'Poppins', sans-serif!important;
+}
+p {
+  margin-bottom:1rem!important;
+}
+/* :: placeholder {
+  color: #B6503C !important;
+} */
+
+.search-sec svg {
+  color:gray;
+}
+
+.ant-tabs-tab {
+  /* background-image: url("./images/buttonbg.png") !important;
+  background-repeat: no-repeat !important; */
+  background-color: #7F00FF!important;
+  border-radius: 10px !important;
+  width: 200px !important;
+  font-size: 1.125rem !important;
+  /* line-height: 1.75rem !important; */
+  background-size: cover !important;
+  color: white !important;
+  border: 0 !important;
+  justify-content: center !important;
+}
+@media screen and (max-width: 768px) {
+  .ant-tabs-tab{
+    font-size: 0.875rem !important;
+    width: 100px !important;
+    padding: 10px 14px !important;
+    border: none !important;
+  }
+}
+
+.ant-tabs-top > .ant-tabs-nav::before{
+  border: none !important;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+color: white !important;
+}
+.ant-tabs-tab-btn{
+  font-family: 'Poppins', sans-serif;
+ 
+}
+.bg {
+  background: #7F00FF;
+}
+.bg1 {
+  background: linear-gradient(135deg, #347DE6 0%, #FF00EE 100%);
+}
+.ant-modal {
+  border: none !important;
+}
+.ant-space {
+  justify-content: space-between;
+  display: flex!important;
+
+}
+.anticon svg {
+  
+  color: grey;
+}

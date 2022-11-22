@@ -1,0 +1,13 @@
+.ant-tabs-tab {
+    /* background-image: url("./images/buttonbg.png") !important;
+    background-repeat: no-repeat !important; */
+    background-color: #7F00FF!important;
+    border-radius: 10px !important;
+    width: 200px !important;
+    font-size: 1.125rem !important;
+    /* line-height: 1.75rem !important; */
+    background-size: cover !important;
+    color: white !important;
+    border: 0 !important;
+    justify-content: center !important;
+  }
